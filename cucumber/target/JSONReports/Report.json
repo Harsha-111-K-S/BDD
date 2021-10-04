@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-29T10:26:21.872Z",
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "to-open-a-specific-browser;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10818824000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDef.GoogleSearch.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6688867900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the browser",
+            "match": {
+              "location": "StepDef.GoogleSearch.user_is_on_the_browser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 313674900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enters the text in search bar",
+            "match": {
+              "location": "StepDef.GoogleSearch.enters_the_text_in_search_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4029678800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on enter",
+            "match": {
+              "location": "StepDef.GoogleSearch.clicks_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305075800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the search page",
+            "match": {
+              "location": "StepDef.GoogleSearch.user_is_navigated_to_the_search_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2075427400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "navigae to about us",
+            "match": {
+              "location": "StepDef.GoogleSearch.navigae_to_about_us()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "to open a specific browser",
+    "description": "",
+    "id": "to-open-a-specific-browser",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/GoogleSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-29T10:26:46.737Z",
+        "line": 6,
+        "name": "check login is successful on proper credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-on-proper-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDef.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDef.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on submit",
+            "match": {
+              "location": "StepDef.LoginSteps.click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "StepDef.LoginSteps.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
